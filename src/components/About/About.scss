@@ -1,0 +1,34 @@
+@import './src/index.scss';
+
+.section-about {
+  position: relative;
+  padding: 13rem 0;
+  background-color: $color-grey;
+
+  &__box {
+    margin-bottom: 5rem;
+  }
+
+  &__paragraph {
+   width: 70%;
+   margin: 0 auto;
+  }
+}
+
+.icon {
+  font-size: 4.5rem;
+  color: $main-color;
+  margin-bottom: 1.7rem;
+  display: inline-block;
+}
+
+.heading-three {
+  margin-bottom: 1.4rem;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 1.7rem;
+  line-height: 1.9;
+ 
+}

@@ -1,0 +1,51 @@
+@import './src/index.scss';
+
+.section-signup {
+  padding: 13rem 0;
+  background-color: $color-grey;
+  
+
+  &__card {
+    box-shadow: 0 1.5rem 4rem rgba($base-color, .15);
+    background-color: $color-white;
+    border-radius: 3px;
+    margin-top: 4rem;
+  }
+
+  &__box--options {
+    padding: 0 2rem;
+    border: 1px solid $color-grey;
+    
+  }
+
+  &__box--options:first-child {
+    background-color: $color-grey;
+  }
+
+  &__box--options:last-child {
+    text-align: center;
+  }
+
+  &__paragraph {
+    font-size: 2rem;
+  }
+
+  &__header--three {
+    font-size: 6rem;
+    font-weight: 300;
+    color: $main-color;
+  }
+
+  &__paragraph--two {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__items {
+    margin-top: 2rem;
+  }
+}

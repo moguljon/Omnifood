@@ -1,0 +1,73 @@
+@import './src/index.scss';
+
+.header {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./img/hero.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+
+  &__logo--box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  &__logo {
+    height: 12.5rem;
+  }
+
+  &__text--box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.nav {
+  float: right;
+  padding: 5rem;
+
+  &__list {
+    list-style: none;
+  }
+
+  &__items {
+    display: inline-block;
+  }
+
+  &__a {
+    color: $color-white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin-left: 2.5rem;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    transition: all .2s;
+    padding: 4px 0;
+
+    &:hover,
+    &:active {
+      border-bottom: 2px solid $main-color;
+    }
+  }
+}
+
+.heading-primary {
+  color: #f7f7f7;
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  display: block;
+}
+
+.heading-secondary {
+  margin-bottom: 3rem;
+}
+
+

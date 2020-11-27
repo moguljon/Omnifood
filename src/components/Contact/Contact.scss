@@ -1,0 +1,21 @@
+@import './src/index.scss';
+
+.section-contact {
+  padding: 3rem 0;
+  background-color: $color-grey;
+
+  &__input {
+    width: 100%;
+    padding: 1.2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  &__textarea {
+    width: 100%;
+    padding: 5rem;
+  }
+
+  &__image {
+    width: 100%;
+  }
+}

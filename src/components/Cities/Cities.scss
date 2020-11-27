@@ -1,0 +1,39 @@
+@import './src/index.scss';
+
+.section-cities {
+  padding: 13rem 0;
+  overflow: hidden;
+
+  &__items {
+    margin-top: 2rem;
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__header--three {
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  &__icon {
+    color: $main-color;
+    display: inline-block;
+    margin-right: .4rem;
+  }
+
+  &__hyperlink {
+    color: $main-color;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all .3s;
+    display: inline-block;
+
+    &:hover {
+      border-bottom: 2px solid $main-color;
+      transform: translateY(-.3rem);
+      
+    }
+  }
+}
