@@ -7,6 +7,7 @@
   background-size: cover;
   height: 100vh;
   background-attachment: fixed;
+  
 
   @include respond(phone) {
     height: 80vh;
@@ -40,7 +41,7 @@
 .nav {
   float: right;
   padding: 5rem;
-
+  
   &__list {
     list-style: none;
   }

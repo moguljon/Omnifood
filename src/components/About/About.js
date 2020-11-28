@@ -23,7 +23,7 @@ const About = () => {
         <div className='col-1-of-4'>
           <FaClock className='icon' />
           <h3 className='heading-three'>Ready in 20 minutes</h3>
-          <p className='paragraph'>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
+          <p className='paragraph'>All meals are fast and hastle free so it will be done in 20 minutes so that you do not ever have to miss a meal. Better yet, the meals taste amazing better than meals that are not healthy.</p>
         </div>
         <div className='col-1-of-4'>
           <FaLeaf className='icon' />
