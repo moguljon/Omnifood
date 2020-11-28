@@ -12,7 +12,7 @@ import './Grid.scss';
 
 const Grid = () => {
   return(
-   <section className='section-grid'>
+   <section className='section-grid' id='grid'>
 
      <ul className='section-grid__list'>
        <li className='section-grid__item'>

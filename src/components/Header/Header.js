@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './img/logo-white.png';
 import './Header.scss';
+// import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
   return(
@@ -11,23 +13,23 @@ const Header = () => {
       <nav className='nav'>
         <ul className='nav__list'>
           <li className='nav__items'>
-            <a href='##' className='nav__a'>Food Delivery</a>
+            <HashLink smooth to='#about' className='nav__a'>Food Delivery</HashLink>
           </li>
           <li className='nav__items'>
-            <a href='##' className='nav__a'>How it works</a>
+            <HashLink smooth to='#how' className='nav__a'>How It works</HashLink>
           </li>
           <li className='nav__items'>
-            <a href='##' className='nav__a'>Our cities</a>
+            <HashLink smooth to='#cities' className='nav__a'>Our Cities</HashLink>
           </li>
           <li className='nav__items'>
-            <a href='##' className='nav__a'>Locations</a>
+            <HashLink smooth to='#signup' className='nav__a'>Signup</HashLink>
           </li>
         </ul>
       </nav>
       <div className='header__text--box'>
         <h1 className='heading-primary'>Goodbye junk food. Hello Healthy</h1>
-        <a href='##' className='btn btn-primary'>I’m hungry </a>
-        <a href='##' className='btn btn-ghost'>Show me more  </a>
+          <HashLink smooth to='#grid' className='btn btn-primary'>I'm hungry</HashLink>
+          <HashLink smooth to='#contact' className='btn btn-ghost'>Show me more</HashLink>
       </div>
     </header>
   )

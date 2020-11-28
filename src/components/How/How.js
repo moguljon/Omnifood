@@ -6,7 +6,7 @@ import play from './img/download-app-android.png';
 
 const How = () => {
   return(
-    <section className='section-how'>
+    <section className='section-how' id='how'>
       <div className='section-about__box'>
         <h2 className='header--two margin-bottom-small'>How it works.</h2>
       </div>

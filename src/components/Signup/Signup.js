@@ -1,9 +1,10 @@
 import React from 'react';
 import './Signup.scss';
+import { HashLink } from 'react-router-hash-link';
 
 const Signup = () => {
   return(
-    <section className='section-signup'>
+    <section className='section-signup' id='signup'>
       <div className='section-signup__box'>
        <h2 className='header--two margin-bottom-small'>Start eating eating healthy today.</h2>
       </div>
@@ -27,7 +28,7 @@ const Signup = () => {
             </div>
 
             <div className='section-signup__box--options'>
-              <a href='##' className='section-signup__button btn btn-primary'>Signup now</a>
+              <HashLink smooth to='#contact' className='section-signup__button btn btn-primary'>Signup now</HashLink>
             </div>
           </div>
         </div>
@@ -50,7 +51,7 @@ const Signup = () => {
             </div>
 
             <div className='section-signup__box--options'>
-              <a href='##' className='section-signup__button btn btn-ghost'>Signup now</a>
+              <HashLink smooth to='#contact' className='section-signup__button btn btn-ghost'>Signup now</HashLink>
             </div>
           </div>
         </div>
@@ -73,7 +74,7 @@ const Signup = () => {
             </div>
 
             <div className='section-signup__box--options'>
-              <a href='##' className='section-signup__button btn btn-ghost'>Signup now</a>
+              <HashLink smooth to='#contact' className='section-signup__button btn btn-ghost'>Signup now</HashLink>
             </div>
           </div>
         </div>

@@ -11,7 +11,7 @@ import { FaTwitter } from "react-icons/fa";
 
 const Cities = () => {
   return(
-    <section className='section-cities'>
+    <section className='section-cities' id='cities'>
       <div className='section-cities__box'>
         <h2 className='header--two margin-bottom-small'>We're currently in these cities</h2>
       </div>

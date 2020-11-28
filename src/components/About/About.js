@@ -9,7 +9,7 @@ import { FaConciergeBell } from "react-icons/fa";
 
 const About = () => {
   return(
-    <section className='section-about'>
+    <section className='section-about' id='about'>
       <div className='section-about__box'>
         <h2 className='header--two margin-bottom-small'>Get food fast — not fast food.</h2>
         <p className='section-about__paragraph'>Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
