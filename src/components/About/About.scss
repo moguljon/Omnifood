@@ -5,6 +5,10 @@
   padding: 13rem 0;
   background-color: $color-grey;
 
+  @include respond(tab-port) {
+    text-align: center;
+  }
+
   &__box {
     margin-bottom: 5rem;
   }

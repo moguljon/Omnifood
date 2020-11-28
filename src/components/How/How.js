@@ -8,7 +8,7 @@ const How = () => {
   return(
     <section className='section-how'>
       <div className='section-about__box'>
-        <h2 className='header--two margin-bottom-small'>Get food fast — not fast food.</h2>
+        <h2 className='header--two margin-bottom-small'>How it works.</h2>
       </div>
 
       <div className='row'>

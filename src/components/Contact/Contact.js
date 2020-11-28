@@ -26,7 +26,7 @@ const Contact = () => {
           </form>
         </div>
 
-        <div className='col-1-of-2'>
+        <div className='col-1-of-2 other-img-box'>
          <img src={image} alt='phone' className='section-contact__image' />
         </div>
         

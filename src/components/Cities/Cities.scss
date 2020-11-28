@@ -6,10 +6,18 @@
 
   &__items {
     margin-top: 2rem;
+
+    @include respond(tab-port) {
+     text-align: center;
+    }
   }
 
   &__image {
     width: 100%;
+
+    @include respond(tab-port) {
+      width: 70%;
+    }
   }
 
   &__header--three {
